@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GROTHGRIDE</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="hero">
+        <div>
+          <p class="eyebrow">GROTHGRIDE</p>
+          <h1>Arrange your daily time for seniors and students with AI-powered workouts, investing, and study help.</h1>
+          <p class="subtitle">Manage your day from school to sleep, with built-in AI for any question, secure money saving, and personalized guidance.</p>
+        </div>
+        <div class="status-pill" id="planStatus">Free mode</div>
+      </header>
+
+      <section class="hero-features">
+        <div class="feature-pill">Daily schedule planner</div>
+        <div class="feature-pill">AI coach for workouts & investing</div>
+        <div class="feature-pill">Secure money saving</div>
+        <div class="feature-pill">Study links & YouTube guides</div>
+      </section>
+
+      <section class="schedule-section">
+        <article class="card schedule-card">
+          <h2>Today's schedule</h2>
+          <p>Structured daily routine for students and seniors.</p>
+          <ul class="schedule-list">
+            <li><strong>7:30 AM - 1:00 PM:</strong> School or learning activities</li>
+            <li><strong>1:00 PM - 2:00 PM:</strong> Rest and eat</li>
+            <li><strong>2:00 PM - 4:00 PM:</strong> Studying (2 hours or less)</li>
+            <li><strong>4:00 PM - 5:00 PM:</strong> Workout session</li>
+            <li><strong>5:00 PM - 6:00 PM:</strong> Investing and money learning</li>
+            <li><strong>6:00 PM - 10:00 PM:</strong> Go out (4 hours)</li>
+            <li><strong>10:00 PM - 11:00 PM:</strong> Eat and prepare for sleep</li>
+            <li><strong>11:00 PM:</strong> Sleep</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="grid cards">
+        <article class="card">
+          <h2>Workout Coach</h2>
+          <p>Personal workout sessions with explanations and YouTube videos.</p>
+          <button id="openWorkout">View workouts</button>
+        </article>
+
+        <article class="card">
+          <h2>Investing & Money</h2>
+          <p>Learn investing, save money securely, with hacker protection and credit card.</p>
+          <button id="openInvest">Open money hub</button>
+        </article>
+
+        <article class="card">
+          <h2>Study Help</h2>
+          <p>Links to study apps and AI-guided learning.</p>
+          <button id="openStudy">Study resources</button>
+        </article>
+
+        <article class="card">
+          <h2>AI Mentor</h2>
+          <p>Ask any question, get answers and YouTube video links.</p>
+          <button id="openChat">Talk to AI</button>
+        </article>
+      </section>
+
+      <section class="panel" id="panelContent">
+        <div>
+          <div class="panel-header">
+            <h2 id="panelTitle">Welcome to GROTHGRIDE</h2>
+            <button class="close-button" id="closePanel">Close</button>
+          </div>
+          <div class="panel-body" id="panelBody">
+            <p>Manage your daily schedule and get help with workouts, investing, and studies.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="promo-bar">
+        <div>
+          <strong>Premium features</strong>
+          <span>Unlock unlimited AI, advanced workouts, and secure investing tools.</span>
+        </div>
+        <button id="upgradeButton">Upgrade</button>
+      </section>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

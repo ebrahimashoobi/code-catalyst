@@ -1,0 +1,36 @@
+{
+  "name": "GROTHGRIDE",
+  "short_name": "GROTHGRIDE",
+  "description": "Daily Life Manager for seniors and students - Manage your time, workouts, investing, and studies with AI-powered guidance",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#007bff",
+  "scope": "./",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%23ffffff' width='192' height='192'/><rect fill='%23007bff' x='30' y='30' width='132' height='132' rx='20'/><text x='96' y='110' font-size='60' font-weight='bold' fill='%23ffffff' text-anchor='middle' font-family='Arial'>GG</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect fill='%23ffffff' width='512' height='512'/><rect fill='%23007bff' x='80' y='80' width='352' height='352' rx='50'/><text x='256' y='300' font-size='160' font-weight='bold' fill='%23ffffff' text-anchor='middle' font-family='Arial'>GG</text></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 540 720'><rect fill='%23ffffff' width='540' height='720'/><text x='270' y='100' font-size='32' font-weight='bold' text-anchor='middle' fill='%23000'>GROTHGRIDE</text><text x='270' y='200' font-size='18' text-anchor='middle' fill='%23666'>Daily Life Manager</text></svg>",
+      "sizes": "540x720",
+      "type": "image/svg+xml",
+      "form_factor": "narrow"
+    }
+  ],
+  "categories": ["productivity", "lifestyle"],
+  "screenshots_size": "540x720",
+  "orientation": "portrait-primary",
+  "prefer_related_applications": false
+}
