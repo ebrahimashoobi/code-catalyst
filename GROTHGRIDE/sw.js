@@ -1,4 +1,4 @@
-const CACHE_NAME = 'grothgride-v1';
+const CACHE_NAME = 'grothgride-v2';
 const urlsToCache = [
   './',
   './index.html',

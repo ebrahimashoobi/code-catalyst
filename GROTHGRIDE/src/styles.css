@@ -14,30 +14,19 @@
   box-sizing: border-box;
 }
 
+html,
 body {
+  min-height: 100%;
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 50%, #e9ecef 100%);
+  background-color: #ffffff !important;
+  background-image: none !important;
   color: var(--text);
   position: relative;
 }
 
 body::before {
-  content: '';
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: repeating-linear-gradient(
-    45deg,
-    transparent,
-    transparent 10px,
-    rgba(0, 0, 0, 0.05) 10px,
-    rgba(0, 0, 0, 0.05) 20px
-  );
-  pointer-events: none;
-  z-index: -1;
+  display: none !important;
 }
 
 .app-shell {
@@ -53,13 +42,14 @@ body::before {
   align-items: center;
   padding: 28px;
   border-radius: 24px;
-  background: rgba(15, 23, 42, 0.9);
+  background: #ffffff;
   border: 1px solid rgba(148, 163, 184, 0.15);
 }
 
 .hero h1 {
   margin: 0 0 10px;
   font-size: clamp(2.2rem, 3vw, 3rem);
+  color: var(--text);
 }
 
 .hero-features {
@@ -72,8 +62,8 @@ body::before {
 .feature-pill {
   padding: 14px 18px;
   border-radius: 18px;
-  background: rgba(56, 189, 248, 0.12);
-  border: 1px solid rgba(56, 189, 248, 0.18);
+  background: #ffffff;
+  border: 1px solid rgba(148, 163, 184, 0.2);
   color: var(--text);
   font-weight: 700;
   text-align: center;
@@ -82,14 +72,15 @@ body::before {
 .hero p {
   margin: 0;
   max-width: 660px;
-  color: var(--muted);
+  color: var(--text);
 }
 
 .status-pill {
   padding: 10px 16px;
   border-radius: 999px;
-  background: rgba(56, 189, 248, 0.15);
+  background: #ffffff;
   color: var(--accent-strong);
+  border: 1px solid rgba(148, 163, 184, 0.15);
   font-weight: 700;
 }
 
